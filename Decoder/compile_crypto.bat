@@ -1,0 +1,1 @@
+gcc -shared -o chacha20.dll chacha20.c

@@ -1,0 +1,40 @@
+2021-01-09T20:40:16.76639100255-20:40:16 **** Incremental Build of configuration Debug for project MASLRICamera_Program ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/OV7670.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OV7670.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Korisnik/workspace/MASLRICamera/export/MASLRICamera/sw/MASLRICamera/standalone_domain/bspinclude/include -MMD -MP -MF"src/OV7670.d" -MT"src/OV7670.o" -o "src/OV7670.o" "../src/OV7670.c"
+000/MASLRICamera_Program/src/OV7670.c318-1-1'ov7670_test_shift' defined but not used [-Wunused-variable]1ov7670_test_shift../src/OV7670.c:318:27: warning: 'ov7670_test_shift' defined but not used [-Wunused-variable]
+000-  318 | static struct regval_list ov7670_test_shift[] = {
+000-      |                           ^~~~~~~~~~~~~~~~~
+000/MASLRICamera_Program/src/OV7670.c301-1-1'ov7670_fmt_rgb565' defined but not used [-Wunused-variable]1ov7670_fmt_rgb565../src/OV7670.c:301:27: warning: 'ov7670_fmt_rgb565' defined but not used [-Wunused-variable]
+000-  301 | static struct regval_list ov7670_fmt_rgb565[] = {
+000-      |                           ^~~~~~~~~~~~~~~~~
+000-'Finished building: ../src/OV7670.c'
+000-' '
+000-'Building file: ../src/echo.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Korisnik/workspace/MASLRICamera/export/MASLRICamera/sw/MASLRICamera/standalone_domain/bspinclude/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+000-In file included from ../src/echo.c:36:
+000/MASLRICamera/export/MASLRICamera/sw/MASLRICamera/standalone_domain/bspinclude/include/xtime_l.h65-1-1#pragma message: For the sleep routines, Global timer is being used0-C:/Users/Korisnik/workspace/MASLRICamera/export/MASLRICamera/sw/MASLRICamera/standalone_domain/bspinclude/include/xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+000-   65 | #pragma message ("For the sleep routines, Global timer is being used")
+000-      |         ^~~~~~~
+000-'Finished building: ../src/echo.c'
+000-' '
+000-'Building target: MASLRICamera_Program.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Korisnik/workspace/MASLRICamera/export/MASLRICamera/sw/MASLRICamera/standalone_domain/bsplib/lib -o "MASLRICamera_Program.elf"  ./src/OV7670.o ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+000-'Finished building target: MASLRICamera_Program.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size MASLRICamera_Program.elf  |tee "MASLRICamera_Program.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 109356	   3472	105560112	105672940	64c70ec	MASLRICamera_Program.elf
+000-'Finished building: MASLRICamera_Program.elf.size'
+000-' '
+00255-
+20:40:17 Build Finished (took 988ms)
+

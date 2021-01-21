@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="MASLRICamera_Program" location="C:/Users/Korisnik/workspace/MASLRICamera_Program" platform="C:/Users/Korisnik/workspace/MASLRICamera/export/MASLRICamera/MASLRICamera.xpfm" platformUID="xilinx:arty-z7-20::0.0(custom)" systemProject="MASLRICamera_Program_system" sysConfig="MASLRICamera" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="6b38a308b653269ebff724cef571ac08">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.597893061" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1983430201">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

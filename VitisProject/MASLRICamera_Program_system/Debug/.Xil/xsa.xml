@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root VersionMajor="1" VersionMinor="15">
+  <GenAppInfo Name="Vivado" Version="2020.1" CL="2902540" TimeStamp="Thu Dec 10 14:32:59 2020"/>
+  <DSA Vendor="xilinx" BoardId="arty-z7-20" Name="" VersionMajor="0" VersionMinor="0" Description="Vivado generated Hardware Platform" FeatureRomTimestamp="0" DcpLogicFunctionStripped="false" DcpEncrypt="false" Unified="true" Fixed="true" DefaultOutputType="hw_export">
+    <Build UsesPR="false" PlatformState="pre_synth" AcceleratorBinaryContent="bitstream" ValidBinaryContentValues="dcp,bitstream" TopModuleName="design_1_wrapper"/>
+    <Board Name="digilentinc.com:arty-z7-20:1.0" Vendor="digilentinc.com" Part="xc7z020clg400-1" BoardPart="digilentinc.com:arty-z7-20:part0:1.0">
+      <Images>
+        <Img Type="HDPI" File=""/>
+        <Img Type="MDPI" File=""/>
+        <Img Type="LDPI" File=""/>
+      </Images>
+    </Board>
+    <Devices>
+      <Device Name="fpga0" Type="8" FpgaDevice="zynq:xc7z020:clg400:-1">
+        <Core Name="OCL_REGION_0" Type="clc_region" ComputeUnits="60">
+          <AvailableResources LUT="52609" REG="105510" BRAM="140" DSP="220"/>
+        </Core>
+      </Device>
+    </Devices>
+    <Files>
+      <File Type="FULL_BIT" Name="design_1_wrapper.bit"/>
+    </Files>
+  </DSA>
+</Root>

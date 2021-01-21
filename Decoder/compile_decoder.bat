@@ -1,0 +1,1 @@
+gcc -shared -o decoder.dll decoder.c dequantize.c dezigzag.c dezrl.c idct.c
