@@ -1,0 +1,15 @@
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\bin\Debug\ZynqCamApp.exe.config
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\bin\Debug\ZynqCamApp.exe
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\bin\Debug\ZynqCamApp.pdb
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.csprojAssemblyReference.cache
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\MainWindow.g.cs
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\App.g.cs
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp_MarkupCompile.cache
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp_MarkupCompile.lref
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\MainWindow.baml
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.g.resources
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.Properties.Resources.resources
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.csproj.GenerateResource.cache
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.csproj.CoreCompileInputs.cache
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.exe
+D:\FAKS\_TRENUTNI_SEMESTAR\multimedijske_arhitekture_sustavi\MASLRICamera\MASCamera_SW\ZynqCamApp\ZynqCamApp\obj\Debug\ZynqCamApp.pdb

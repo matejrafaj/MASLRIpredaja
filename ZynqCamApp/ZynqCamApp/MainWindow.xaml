@@ -1,0 +1,49 @@
+﻿<Window x:Class="ZynqCamApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZynqCamApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="640"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="480"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image x:Name="campic" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="startButton" Content="Take picture" Grid.Column="1" Grid.Row="2" Height="50" Width="200" FontSize="30" Click="startButton_Click"/>
+
+        <StackPanel Grid.Column="2" Grid.Row="1">
+
+            <Label Content="Camera Options" FontSize="20" FontWeight="Bold"/>
+            <Separator/>
+
+            <CheckBox x:Name="sendTestBar" Content="Show test bar" Padding="5,0,0,5"/>
+
+            <CheckBox x:Name="vFlip" Content="Flip vertically" Padding="5,0,0,5" IsChecked="True"/>
+            <CheckBox x:Name="hMirror" Content="MIrror horizontally" Padding="5,0,0,5" IsChecked="True"/>
+
+            <ComboBox x:Name="autoContrastState" Grid.Column="2" Grid.Row="1" Height="24" SelectedIndex="0">
+                <ComboBoxItem Content="No Post Contrast"/>
+                <ComboBoxItem Content="Soft Post Contrast+"/>
+                <ComboBoxItem Content="Hard Post Contrast+"/>
+            </ComboBox>
+
+            <CheckBox x:Name="compress" Content="Compress picture" Padding="5,0,0,5" IsChecked="True"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
